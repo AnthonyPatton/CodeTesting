@@ -1,0 +1,15 @@
+windows key + R //open terminal
+cmd //open terminal
+cd desktop// navigate to destination
+md test// create folder test
+~/desktop/test/index.html // make this file
+~/desktop/test/style.css //make this file
+~/desktop/test/aboutMe.txt// make this file
+git init//
+md aboutMe.txt//
+git aboutMe.txt//
+cd aboutMe.txt//
+git commit added favorite movie to aboutMe.txt added //
+git log//
+git commit -m "Never made added my favorite movie"//
+

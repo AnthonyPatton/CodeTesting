@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+
+
+  </title>
+  <script>
+  function tellTime(h, m){
+  var hour= h;
+  var minute= m;
+  var period;
+
+  var ja="just after";
+  var ev="in the evening";
+
+  var al="almost";
+  var im="in the morning";
+
+  if(minute <= 30 && minute >= 1){
+    console.log("It's", ja, hour, ev );
+  }else if(minute > 30 && minute < 59){
+    console.log("It's", al, hour + 1, im);
+  }
+
+
+}
+tellTime(7,31);
+  </script>
+</head>
+<body>
+
+</body>
+</html>

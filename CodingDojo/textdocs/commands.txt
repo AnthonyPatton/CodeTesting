@@ -1,0 +1,18 @@
+windows key + R //open terminal
+cmd //open terminal
+cd desktop// navigate to destination
+md test// create new dir test
+copy NUL index.html // make this file
+copy NUL style.css //make this file
+copy NUL commands.txt// make this file
+copy index.html //make a copy
+ren index.html index2.html //rename it to index2.html
+cd desktop //navigate back to your desktop and...
+md destination //make another directory, called destination
+cd test //navigate to test dir and... 
+del styles.css //remove styles.css
+dir //check to see what files are in the test
+cd destination //navigate to destination dir 
+dir //check to see whats in destination dir
+del destination // Remove/delete the distination directory
+

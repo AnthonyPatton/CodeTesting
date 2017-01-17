@@ -1,0 +1,8 @@
+p{
+  background-colors: grey;
+  display: inline;
+}
+a{
+  background-colors: yellow;
+  display: block;
+}

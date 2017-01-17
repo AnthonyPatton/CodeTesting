@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>My jQuery basic assignment</title>
+    <script type="text/javascript" src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js'></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+
+        alert("Bro this is jQuery!");
+
+        $('a').click(function(){
+            alert("you are leaving the page!");
+        }
+
+        $('#hide').click(function(){
+                $('p').hide();
+        }
+        $('#show').click(function(){
+                $('p').show();
+        });
+
+
+    </script>
+  </head>
+  <body>
+    <p>This is a paragraph!</p>
+    <p>This is a paragraph!</p>
+    <button id ="hide">THis will hide all paragraphs!</button>
+    <button id ="show">THis will show all paragraphs!</button>
+
+
+
+  </body>
+
+</html>
